@@ -1,0 +1,14 @@
+{
+  "name": "week-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cooking-app/index.js",
+  "scripts": {
+    "start": "node cooking-app/index.js",
+    "test": "node cooking-app/tester.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
