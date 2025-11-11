@@ -1,0 +1,16 @@
+{
+  "name": "tdd-week3-starter",
+  "version": "1.0.0",
+  "description": "Chapter 3 TDD mini exercises (assert, custom errors, Jest + coverage)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:assert": "node assert-demo/square.spec.js && node errors-demo/divide.spec.js",
+    "test:jest": "jest",
+    "coverage": "jest --coverage",
+    "start": "node assert-demo/square.spec.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
